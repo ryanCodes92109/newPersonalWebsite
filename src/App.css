@@ -3,6 +3,13 @@ body {
   background-color: purple;
 }
 
+.navbar {
+  height:10vh;
+  width:100vw;
+  background-color: black;
+  margin:auto;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
