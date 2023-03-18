@@ -7,6 +7,10 @@ const Navbar = () => {
         <Link to='/resume'>
             <li>Resume</li>
         </Link>
+
+        <Link to='/contact'>
+          <li>Contact</li>
+        </Link>
     </div>
   )
 }
