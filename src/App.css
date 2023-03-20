@@ -8,54 +8,12 @@ body {
 .titleText {
   color:white;
   position:relative;
-  left:1vw;
-  font-size:3dem
+  left:4vw;
+  font-size:2em;
 }
 
-.header {
-  height:10vh;
-  width:100vw;
-  background-color: black;
-  /* margin:auto; */
-  display:flex;
-  /* list-style: none; */
-  /* justify-content: space-between; */
-  align-items: center;
-  position:fixed;
-
-}
-
-.navbar {
-  display:flex;
-  margin-left:auto;
-}
-
-
-
-.navbutton {
-  width:8vw;
-  height:3vw;
-  background-color: white;
-  justify-content: center;
-  display:flex;
-  align-items:center;
-}
-
-.resumeContainer {
+#logo-70 {
   position:relative;
-  top:11vh;
-  border: 5px solid white;
-  height:80vh;
-  width:95vw;
-  margin:auto;
-  background-color: blue;
+  left:2vw;
 }
 
-.resumeInfo {
-  border: 5px solid black;
-  height:10vw;
-  width:75vw;
-  margin:auto;
-  background-color: white;
-  margin-top:1vh;
-}
