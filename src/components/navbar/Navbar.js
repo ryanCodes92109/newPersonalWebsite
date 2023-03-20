@@ -15,6 +15,10 @@ const Navbar = () => {
         <div
           className='navbar'
           >
+            <Link to='/about-me'>
+              <li className='navbutton'>About Me</li>
+            </Link>
+
             <Link to='/resume'>
                 <li className='navbutton'>Resume</li>
             </Link>

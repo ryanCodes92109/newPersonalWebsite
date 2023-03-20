@@ -1,0 +1,18 @@
+.aboutMeContainer {
+    border: 5px solid black;
+    display:flex;
+    justify-content: center;
+    position:absolute;
+    top:10vh;
+    left:12.5vw;
+    background-color: white;
+    width:75vw;
+    height:75vh;
+}
+
+.aboutMeInfo {
+    height:10vh;
+    border: 5px solid black;
+    margin:1vw;
+
+}
