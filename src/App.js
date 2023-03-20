@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Resume from './components/resume/Resume';
 import Navbar from './components/navbar/Navbar';
 import Contact from './components/contact/Contact';
+import AboutMe from './components/aboutMe/AboutMe';
 
 function App() {
   return (
@@ -16,7 +17,12 @@ function App() {
         
           <Route
             path='/contact'
-            element={<Contact />}
+            element={ <Contact /> }
+          />
+
+          <Route 
+            path='/about-me'
+            element={ <AboutMe/> }
           />
           
         </Routes>

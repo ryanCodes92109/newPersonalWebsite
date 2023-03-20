@@ -1,8 +1,11 @@
+
+
 body {
   text-align: center;
   background-color: purple;
-  margin:0;
+  margin:auto;
   padding:0;
+  position:fixed;
 }
 
 .titleText {
