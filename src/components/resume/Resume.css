@@ -1,18 +1,6 @@
 .resumeContainer {
-    position:relative;
-    top:11vh;
-    border: 5px solid white;
-    height:80vh;
-    width:95vw;
-    margin:auto;
-    background-color: blue;
-  }
-  
-  .resumeInfo {
-    border: 5px solid black;
-    height:10vw;
-    width:75vw;
-    margin:auto;
-    background-color: white;
-    margin-top:1vh;
-  }
+  width:80vw;
+  border:5px solid black;
+  height:100vh;
+  background-color: white;
+}
