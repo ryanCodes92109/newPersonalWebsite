@@ -15,7 +15,7 @@ const Navbar = () => {
         <div
           className='navbar'
           >
-            <Link to='/about-me'>
+            <Link to='/'>
               <li className='navbutton'>About Me</li>
             </Link>
 

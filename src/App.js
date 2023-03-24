@@ -9,24 +9,26 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <div className = "appContainer">
         <Routes>
+          <Route 
+            path='/'
+            element={ <AboutMe/> }
+          />
           <Route 
             path ='/resume' 
             element={ <Resume />} 
           />
-        
+            
           <Route
             path='/contact'
             element={ <Contact /> }
           />
 
-          <Route 
-            path='/about-me'
-            element={ <AboutMe/> }
-          />
-          
-        </Routes>
+          </Routes>
+      </div>
     </div>
+
   );
 }
 
