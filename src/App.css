@@ -7,9 +7,10 @@
 
 .appContainer {
   position:relative;
-  top:11vh;
-  width:80vw;
+  top:10.2vh;
+  width:100vw;
   height:80vh;
   /* background-color: black; */
   margin:auto;
+  
 }
