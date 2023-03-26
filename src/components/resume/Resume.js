@@ -14,6 +14,30 @@ const Resume = () => {
           <p> This will be some more text</p>
         </div>
 
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
+        <div className='resumeInfo'>
+          <p> This will be some more text</p>
+        </div>
+
       </div>
     </>
   )

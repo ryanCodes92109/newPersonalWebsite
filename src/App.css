@@ -1,15 +1,16 @@
 .App {
   width:100vw;
   height:100vh;
-  background-color: purple;
+  background-color: black;
   position:fixed;
 }
 
 .appContainer {
   position:relative;
-  top:11vh;
-  width:80vw;
+  top:10.2vh;
+  width:100vw;
   height:80vh;
   /* background-color: black; */
   margin:auto;
+  
 }
