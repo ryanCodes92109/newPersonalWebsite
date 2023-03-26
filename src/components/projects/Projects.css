@@ -1,0 +1,26 @@
+.projectsContainer {
+    /* background-color: white;
+    width:50vw;
+    height:80vh;
+    margin:auto; */
+    width:50vw;
+    border:5px solid black;
+    height:80vh;
+    background-color: white;
+    overflow:scroll;
+    margin:auto;
+}
+
+.projectsInfo {
+    /* margin:auto;
+    border:5px solid black;
+    height:20vh;
+    width:40vw;
+    margin-top:1vh; */
+    border: solid 5px black;
+    height:20vh;
+    width:40vw;
+    margin:auto;
+    margin-top:1vh;
+    background-color: lightblue;
+}

@@ -11,13 +11,15 @@
 }
 
 .aboutMeInfo {
-    width:50vw;
-    height: 20vh;
-    border:5px solid red;
+    width:40vw;
+    height: 40vh;
+    /* border:5px solid red; */
     margin:1vw;
-    display:flex;
+    /* text-align: center; */
+    font-size: 1.3rem;
+    /* display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .aboutMePhotoreel {
