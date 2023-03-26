@@ -4,6 +4,8 @@ import Resume from './components/resume/Resume';
 import Navbar from './components/navbar/Navbar';
 import Contact from './components/contact/Contact';
 import AboutMe from './components/aboutMe/AboutMe';
+import Projects from './components/projects/Projects';
+
 
 function App() {
   return (
@@ -19,6 +21,12 @@ function App() {
             path ='/resume' 
             element={ <Resume />} 
           />
+
+          <Route 
+            path ='/projects' 
+            element={ <Projects />} 
+          />
+          
             
           <Route
             path='/contact'

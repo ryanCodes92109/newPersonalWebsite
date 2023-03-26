@@ -18,6 +18,10 @@ const Navbar = () => {
             <Link to='/'>
               <li className='navbutton'>About Me</li>
             </Link>
+            
+            <Link to='/projects'>
+                <li className='navbutton'>Projects</li>
+            </Link>
 
             <Link to='/resume'>
                 <li className='navbutton'>Resume</li>
@@ -26,6 +30,7 @@ const Navbar = () => {
             <Link to='/contact'>
               <li className='navbutton'>Contact</li>
             </Link>
+
         </div>
     </div>
   )
