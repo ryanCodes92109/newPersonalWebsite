@@ -26,11 +26,22 @@
 .aboutMePhotoreel {
     color:black;
     display:flex;
-    border:5px solid purple;
-    height:20vh;
+    /* border:5px solid purple; */
+    height:25vh;
     width:50vw;
-    justify-content: center;
-    align-items: center;
+    overflow:scroll;
     margin:auto;
     background-color: white;
+}
+
+.gallery {
+    display:flex;
+}
+
+.scrollableimages {
+    height:23vh;
+    width:10vw;
+    align-items: center;
+    justify-content: center;
+    margin-left:1vw;;    
 }

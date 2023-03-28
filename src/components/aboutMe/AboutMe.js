@@ -1,6 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 
+
 const AboutMe = () => {
   return (
     <>
@@ -22,7 +23,114 @@ const AboutMe = () => {
           
       </div>
       <div className='aboutMePhotoreel'>
-            Insert Photo reel
+            <span className="gallery" >
+            <img 
+              className="scrollableimages" 
+              src={'./1.jpg'}
+              alt={"My dogs on the couch"}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./2.jpg'}
+              alt={'My dog Finn with his favorite animal themed movie bandana'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./3.jpg'}
+              alt={'My other dog, Quincy while we we are all out at a bar'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./4.jpg'}
+              alt={'Finn like laying under tables and chairs while we are out in public'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./5.jpg'}
+              alt={'A puppy pic of Finn'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./6.jpg'}
+              alt={'Another puppy pic of Finn'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./7.jpg'}
+              alt={'A pic of Quincy and Finn soo after I first got Finn.'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./9.jpg'}
+              alt={'just a derpy pic of finn'}
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./10.jpg'}
+              alt={'Finn as a puppy again'}
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./11.jpg'}
+              alt={'Finn at the beach'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./12.jpg'}
+              alt={'When first figured out he likes being under tables and chairs in public'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./13.jpg'}
+              alt={'Finn seeking attention'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./14.jpg'}
+              alt={'Finn just being a good boy'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./15.gif'}
+              alt={'Gif of Finn with an ice cube'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./16.jpg'}
+              alt={'Finn under the cherry blossoms'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./17.jpg'}
+              alt={'Finn being good'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./18.jpg'}
+              alt={'Boop the nose!'}
+              
+              />
+            <img 
+              className="scrollableimages" 
+              src={'./19.jpg'}
+              alt={'Finn being Finn'}
+              
+              />
+            </span>
           </div>
     </>
   )
