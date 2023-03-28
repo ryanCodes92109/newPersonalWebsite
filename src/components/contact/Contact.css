@@ -6,6 +6,8 @@
     left:10vw;
     margin:auto;
     overflow:scroll;
+    display:flex;
+    justify-content: center;
 }
 
 .contactInfo {
@@ -18,3 +20,7 @@
 
 }
 
+.contactSubmitForm {
+    border:5px solid black;
+    /* margin:auto; */
+}
