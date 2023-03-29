@@ -1,19 +1,50 @@
 import React, {useState} from 'react'
 import './Contact.css'
 import { TextField } from '@mui/material'
+import { send } from 'emailjs-com'
 
 const Contact = () => {
     const [toggleSubmitForm, setToggleSubmitForm] =useState(false)
 
+    const emailjsFormValues = {
+        from_name:'',
+        to_name:'',
+        message:'',
+        reply_to:''
+    }
+
+    const [toSend, setToSend] = useState(emailjsFormValues);
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        send(
+            'service_g6lajha',//serviceID from emailJS
+            'template_wyghmzp',//templateID for the template I made in emailJS
+            toSend, //state variable
+            '7p7ctx16LktKxVFg1'//userId from emailJS
+            )
+        setToSend(emailjsFormValues)
+    }
+
+    const handleChange = (e) => {
+        setToSend({...toSend, [e.target.name]:e.target.value});
+    }
+
   return (
+
     <div className = 'contactContainer'>
-        <div className='contactSubmitForm'>
+        <form 
+            onSubmit={handleSubmit}
+            className='contactSubmitForm'>
             <TextField
                 className='submitInput'
                 sx={{
                     width:290
                     }}
                 label="Name"
+                onChange={handleChange}
+                name='from_name'
+                value={toSend.from_name}
             ></TextField>
             <br/>
             <TextField
@@ -22,6 +53,9 @@ const Contact = () => {
             }}
                 className='submitInput'
                 label="Email"
+                onChange={handleChange}
+                name='reply_to'
+                value={toSend.reply_to}
             ></TextField>
             <br/>
 
@@ -34,54 +68,18 @@ const Contact = () => {
                         height: 160
                     }
                 }}
+                onChange={handleChange}
+                name='message'
+                value={toSend.message}
             >
-
             </TextField>
-{/*            
-            <label class="mdc-text-field mdc-text-field--outlined mdc-text-field--textarea mdc-text-field--no-label">
-                <span class="mdc-notched-outline">
-                    <span class="mdc-notched-outline__leading"></span>
-                    <span class="mdc-notched-outline__trailing"></span>
-                </span>
-                <span class="mdc-text-field__resizer">
-                    <textarea class="mdc-text-field__input" rows="8" cols="40" aria-label="Label"></textarea>
-                </span>
-            </label> */}
-        </div>
+            <br/>
 
-{/* 
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
+            <button 
+                type='submit'
+            >Submit</button>
 
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div>
-
-        <div className = 'contactInfo'>
-            <p className='contactContent'>Hello</p>
-        </div> */}
-
+        </form>
     </div>
   )
 }
