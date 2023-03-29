@@ -21,6 +21,27 @@
 }
 
 .contactSubmitForm {
+    border:5px solid red;
+    height:8vh;
+    width:100vw;
+    
+}
+
+.emailButton {
+    height:6.5vh;
+    width:3.2vw;
+}
+
+.socialLinkContainer {
     border:5px solid black;
-    /* margin:auto; */
+    position:relative;
+    top:20vh;
+    width:50vw;
+    margin:auto;
+}
+
+.linkedinProfileLink {
+    top:25vh;
+    width:15vw;
+    height:15vh;
 }
