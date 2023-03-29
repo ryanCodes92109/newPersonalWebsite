@@ -39,17 +39,17 @@ const Contact = () => {
             <TextField
                 className='submitInput'
                 sx={{
-                    width:290
+                    width:250
                     }}
                 label="Name"
                 onChange={handleChange}
                 name='from_name'
                 value={toSend.from_name}
             ></TextField>
-            <br/>
+
             <TextField
               sx={{
-                width:290
+                width:250
             }}
                 className='submitInput'
                 label="Email"
@@ -57,29 +57,41 @@ const Contact = () => {
                 name='reply_to'
                 value={toSend.reply_to}
             ></TextField>
-            <br/>
 
             <TextField
                 className='submitInput'
                 label='Message'
                 sx={{
-                    width:290,
-                    "& .MuiInputBase-root": {
-                        height: 160
-                    }
+                    width:275,
+                    // "& .MuiInputBase-root": {
+                    //     height: 160
+                    // }
                 }}
                 onChange={handleChange}
                 name='message'
                 value={toSend.message}
             >
             </TextField>
-            <br/>
+
 
             <button 
                 type='submit'
-            >Submit</button>
+                className='emailButton'
+            >Send</button>
 
         </form>
+        
+        <div
+            className='socialLinkContainer'
+        >
+        <br/>
+            <a href='https://www.linkedin.com/in/ryansul/'>
+                <img
+                    className='linkedinProfileLink'
+                    src={'./linkedinlog.jpg'}
+                />
+            </a>
+        </div>
     </div>
   )
 }
