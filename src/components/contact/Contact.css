@@ -41,6 +41,8 @@
 
 .linkedinProfileLink:hover {
     background-color: black;
+    border-radius: 1.5em;
+
 }
 
 .linkedinProfileLink {
