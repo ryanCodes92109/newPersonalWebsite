@@ -70,7 +70,6 @@ const Contact = () => {
                 {/* <TextareaAutosize */}
                 <TextField
                     required
-                    
                     variant="filled"
                     className='submitInput'
                     label='Write your message here'

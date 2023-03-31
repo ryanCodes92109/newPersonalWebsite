@@ -4,21 +4,12 @@ import './Projects.css'
 const Projects = () => {
   return (
     <div className='projectsContainer'>
-        <div className="projectsInfo">
-            Enter projects gifs and info here
-        </div>
 
-        <div className="projectsInfo">
+       
+        {/* <div className="projectsInfo">
             Enter projects gifs and info here
-        </div>
+        </div> */}
 
-        <div className="projectsInfo">
-            Enter projects gifs and info here
-        </div>
-
-        <div className="projectsInfo">
-            Enter projects gifs and info here
-        </div>
     </div>
   )
 }

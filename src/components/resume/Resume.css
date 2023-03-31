@@ -2,7 +2,7 @@
   /* display:flex; */
   width:50vw;
   border:5px solid black;
-  height:80vh;
+  height:70vh;
   background-color: white;
   overflow:scroll;
   margin:auto;
@@ -11,8 +11,12 @@
 .resumeInfo {
   border: solid 5px black;
   height:20vh;
-  width:40vw;
+  width:80vw;
   margin:auto;
   margin-top:1vh;
   background-color: lightblue;
+}
+
+.resumePDF {
+  height:50vh;
 }
