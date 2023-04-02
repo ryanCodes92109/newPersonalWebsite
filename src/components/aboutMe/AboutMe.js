@@ -24,7 +24,7 @@ const AboutMe = () => {
       </div>
       <div className='aboutMePhotoreel'>
             <span className="gallery" >
-            <img 
+            {/* <img 
               className="scrollableimages" 
               src={'./1.jpg'}
               alt={"My dogs on the couch"}
@@ -129,7 +129,7 @@ const AboutMe = () => {
               src={'./19.jpg'}
               alt={'Finn being Finn'}
               
-              />
+              /> */}
             </span>
           </div>
     </>
