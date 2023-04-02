@@ -6,9 +6,9 @@ const Projects = () => {
     <div className='projectsContainer'>
 
        
-        {/* <div className="projectsInfo">
-            Enter projects gifs and info here
-        </div> */}
+        <div className="projectsInfo">
+          This part is still in progress! 
+        </div>
 
     </div>
   )

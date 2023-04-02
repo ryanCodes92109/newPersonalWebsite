@@ -4,40 +4,16 @@ import './Resume.css';
 
 const Resume = () => {
 
-  const [numPage, setNumPage] = useState(null)
-  const [pageNumber, setPageNumber] = useState(1)
-
-  const onDocumentLoadSuccess =({numPage}) => {
-    setNumPage(numPage);
-    setPageNumber(1);
-  }
-
-  const changePage = (offset) => {
-    setPageNumber(prevPageNumber => prevPageNumber + offset)
-  }
-
-  const changePageBack = () => changePage(-1)
-  
-
-  const changePageNext =() => changePage(+1)
-
   return (
 
- <div className='resumeContainer'>
+    <div className='resumeContainer'>
 
-        <Document file='./resume.pdf' onDocumentLoadSuccess={onDocumentLoadSuccess}>
-          <Page 
-            pageNumber={pageNumber}
-            height='950'
-          ></Page>
-        </Document>
-        <p>
-          Page {pageNumber} of {numPage}
-        </p>
-        {pageNumber > 1 && <button onClick={changePageBack}> Previous Page</button>}
-        {pageNumber < numPage && <button onClick={changePageNext}>Next Page</button>}
+      <iframe 
+        className='resumeContainer'
+        src="https://docs.google.com/document/d/e/2PACX-1vQBeu6tw2FtC9XZ1rJ93BlD2uVs4JKD1nEBOrgnQHDkddyKPfO-GGuqbj53EsTNKT7jy6jqqiBSZTwa/pub?embedded=true"
+      ></iframe>
 
-       </div>
+    </div>
        
   )
 }

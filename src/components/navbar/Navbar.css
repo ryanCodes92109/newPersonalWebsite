@@ -2,11 +2,9 @@
 .header {
     height:10vh;
     width:100vw;
-    background-color: black;
-    /* margin:auto; */
+    background-color:rgba(0, 0, 0, .7);
     display:flex;
-    /* list-style: none; */
-    /* justify-content: space-between; */
+
     align-items: center;
     position:fixed;
     color:white;

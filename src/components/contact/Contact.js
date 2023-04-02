@@ -5,7 +5,6 @@ import {TextareaAutosize} from '@mui/material'
 import { send } from 'emailjs-com'
 
 const Contact = () => {
-    const [toggleSubmitForm, setToggleSubmitForm] =useState(false)
 
     const emailjsFormValues = {
         from_name:'',

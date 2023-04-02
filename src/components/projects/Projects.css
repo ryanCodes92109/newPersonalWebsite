@@ -4,9 +4,8 @@
     height:80vh;
     margin:auto; */
     width:50vw;
-    border:5px solid black;
     height:80vh;
-    background-color: white;
+    background-color: rgba(4, 65, 47, 0.5);
     overflow:scroll;
     margin:auto;
 }
@@ -17,10 +16,9 @@
     height:20vh;
     width:40vw;
     margin-top:1vh; */
-    border: solid 5px black;
     height:20vh;
     width:40vw;
     margin:auto;
     margin-top:1vh;
-    background-color: lightblue;
+    background-color: rgba(150,150,150,.5);
 }
