@@ -113,13 +113,13 @@ const handleChange = (e) => {
         </div> 
       
         <div className='socialLinkContainer'>
-        <p>Lets connect!  </p> 
-        <br/>
-        <a href='https://www.linkedin.com/in/ryansul/'>
+          <a href='https://www.linkedin.com/in/ryansul/'>
             <img
                 className='linkedinProfileLink'
                 src={'./linkedinlog.jpg'}/> 
-        </a>
+          </a>
+          <br/>
+          <p>Lets connect!  </p> 
         </div>
       </div>
 
