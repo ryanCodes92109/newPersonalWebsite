@@ -22,10 +22,10 @@ function App() {
             element={ <Resume />} 
           />
 
-          <Route 
+          {/* <Route 
             path ='/projects' 
             element={ <Projects />} 
-          />
+          /> */}
           
             
           <Route

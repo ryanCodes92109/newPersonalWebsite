@@ -6,7 +6,7 @@
     width:80vw;
     height:80vh;
     background-color: rgba(4, 65, 47, 0.5);
-    overflow:scroll;
+    /* overflow:scroll; */
     margin:auto;
 }
 

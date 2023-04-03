@@ -34,102 +34,28 @@ const handleChange = (e) => {
       <div className='aboutMeContainer'>
         <br/>
         
-        {/* <div className='aboutMeInfo'> */}
-          {/* <div className ='infoTextContainer'> */}
-            <p> 
+        
+            <p className='aboutMeText'> 
               Hi there! My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
             </p>
-            <p>
+            <p className='aboutMeText'>
               My experience in recruiting allowed me to gain a deep understanding of the tech industry and the skills that are most in-demand in today's job market. However, I realized that I wanted to be more directly involved in the creation of new products, rather than just finding the right people to build them.
             </p>
-            <p>
+            <p className='aboutMeText'>
               That's why I decided to make the switch to software engineering and enrolled in the Fullstack Engineering program at Flatiron School. During the course of the program, I gained hands-on experience with a wide range of technologies, including JavaScript, React, Ruby on Rails, and SQL. I also honed my problem-solving and critical thinking skills, which are essential for any software engineer.
             </p> 
-            <p>
+            <p className='aboutMeText'>
               Now that I've completed the program, I'm excited to apply my skills and experience to help create innovative new products and services. Whether you're looking to build a web app, a mobile app, or something else entirely, I'm eager to collaborate with you and turn your ideas into reality.
             </p>
-            <p>
+            <p className='aboutMeText'>
               Thank you for taking the time to learn a bit more about me. If you have any questions, please feel free to email directly with the form (created with EmailJS) below! 
             </p>
-          {/* </div> */}
-{/* 
-        </div> */}
-
-         {/* <div>
-        <div className = 'contactContainer'>
-          <form 
-            onSubmit={handleSubmit}
-            className='contactSubmitForm'>
-
-            <TextField
-                required
-                variant="filled"
-                className='submitInput'
-                sx={{
-                    width:150
-                    }}
-                label="Name"
-                onChange={handleChange}
-                name='from_name'
-                value={toSend.from_name}
-            ></TextField>
-
-              <TextField
-                required
-                variant="filled"
-                sx={{
-                  width:170
-                }}
-                className='submitInput'
-                label="Email"
-                onChange={handleChange}
-                name='reply_to'
-                value={toSend.reply_to}
-              ></TextField>
-              <br/>
-
-              <TextField
-                required
-                variant="filled"
-                className='submitInput'
-                label='Write your message here'
-                size='large'
-                multiline
-                minRows={1}
-                sx={{
-                  width:250
-                }}           
-                onChange={handleChange}
-                name='message'
-                value={toSend.message}>
-              </TextField>
-
-              <Button 
-                variant="contained" 
-                // endIcon={<SendIcon />}
-                type='submit'
-                className='emailButton'
-
-                >
-                Send</Button>
-          </form>
-
-        </div>
-      
-        <div className='socialLinkContainer'>
-          <a href='https://www.linkedin.com/in/ryansul/'>
-            <img
-                className='linkedinProfileLink'
-                src={'./linkedinlog.jpg'}/> 
-          </a>
-          <br/>
-          <p>Lets connect!  </p> 
-        </div>
-        </div> */}
+  
       </div>
       
       <div>
         <div className = 'contactContainer'>
+                  
           <form 
             onSubmit={handleSubmit}
             className='contactSubmitForm'>
@@ -195,18 +121,8 @@ const handleChange = (e) => {
                 className='linkedinProfileLink'
                 src={'./linkedinlog.jpg'}/> 
           </a>
-
         </div>
-      
-        {/* <div className='socialLinkContainer'> */}
-          {/* <a href='https://www.linkedin.com/in/ryansul/'>
-            <img
-                className='linkedinProfileLink'
-                src={'./linkedinlog.jpg'}/> 
-          </a> */}
-          
-        {/* </div> */}
-        </div>
+      </div>
     </>
   )
 }
