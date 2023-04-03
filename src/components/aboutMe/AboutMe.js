@@ -34,22 +34,28 @@ const handleChange = (e) => {
       <div className='aboutMeContainer'>
         <br/>
         
-        <div className='aboutMeInfo'>
-          <div className ='infoTextContainer'>
+        {/* <div className='aboutMeInfo'> */}
+          {/* <div className ='infoTextContainer'> */}
             <p> 
-
-                  Hi! I'm Ryan, and I am a Fullstack Engineer. I've made a huge change in my life and decided to learn some new skills that would allow me to expand more personally and professionally. I'm an ex-Technical Recruiter with companies like Google, Zillow and Rivian, but finally had the chance to pursue a different career path after 10 years. 
-
+              Hi there! My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
             </p>
             <p>
-                  I completed the Flatiron School Fullstack Engineering program in 2023 and really enjoyed building my <strong>projects</strong> while getting a strong grasp on Javascript, React and Ruby/Rails. I really enjoyed working closely with the Frontend of my app specifically and really hope I get the chance to utilize my creativity and enhance my UI skills!
+              My experience in recruiting allowed me to gain a deep understanding of the tech industry and the skills that are most in-demand in today's job market. However, I realized that I wanted to be more directly involved in the creation of new products, rather than just finding the right people to build them.
             </p>
             <p>
-                  Feel free to <strong>contact</strong> me if I may be a good fit for any open positions you know of! In the meantime, here are a bunch of pictures of my dogs.
+              That's why I decided to make the switch to software engineering and enrolled in the Fullstack Engineering program at Flatiron School. During the course of the program, I gained hands-on experience with a wide range of technologies, including JavaScript, React, Ruby on Rails, and SQL. I also honed my problem-solving and critical thinking skills, which are essential for any software engineer.
             </p> 
-          </div>
+            <p>
+              Now that I've completed the program, I'm excited to apply my skills and experience to help create innovative new products and services. Whether you're looking to build a web app, a mobile app, or something else entirely, I'm eager to collaborate with you and turn your ideas into reality.
+            </p>
+            <p>
+              Thank you for taking the time to learn a bit more about me. If you have any questions, please feel free to email directly with the form (created with EmailJS) below! 
+            </p>
+          {/* </div> */}
+{/* 
+        </div> */}
 
-
+         {/* <div>
         <div className = 'contactContainer'>
           <form 
             onSubmit={handleSubmit}
@@ -109,8 +115,6 @@ const handleChange = (e) => {
           </form>
 
         </div>
-
-        </div> 
       
         <div className='socialLinkContainer'>
           <a href='https://www.linkedin.com/in/ryansul/'>
@@ -121,8 +125,88 @@ const handleChange = (e) => {
           <br/>
           <p>Lets connect!  </p> 
         </div>
+        </div> */}
       </div>
+      
+      <div>
+        <div className = 'contactContainer'>
+          <form 
+            onSubmit={handleSubmit}
+            className='contactSubmitForm'>
 
+            <TextField
+                required
+                variant="filled"
+                className='submitInput'
+                backgroundColor="white"
+                sx={{
+                    width:150
+                    
+                    }}
+                    
+                label="Name"
+                onChange={handleChange}
+                name='from_name'
+                value={toSend.from_name}
+            ></TextField>
+
+              <TextField
+                required
+                variant="filled"
+                sx={{
+                  width:170
+                }}
+                className='submitInput'
+                label="Email"
+                onChange={handleChange}
+                name='reply_to'
+                value={toSend.reply_to}
+              ></TextField>
+              <br/>
+
+              <TextField
+                required
+                variant="filled"
+                className='submitInput'
+                label='Write your message here'
+                size='large'
+                multiline
+                minRows={1}
+                sx={{
+                  width:250
+                }}           
+                onChange={handleChange}
+                name='message'
+                value={toSend.message}>
+              </TextField>
+
+              <Button 
+                variant="contained" 
+                // endIcon={<SendIcon />}
+                type='submit'
+                className='emailButton'
+
+                >
+                Send</Button>
+          </form>
+
+          <a className='socialLinkContainer' href='https://www.linkedin.com/in/ryansul/'>
+            <img
+                className='linkedinProfileLink'
+                src={'./linkedinlog.jpg'}/> 
+          </a>
+
+        </div>
+      
+        {/* <div className='socialLinkContainer'> */}
+          {/* <a href='https://www.linkedin.com/in/ryansul/'>
+            <img
+                className='linkedinProfileLink'
+                src={'./linkedinlog.jpg'}/> 
+          </a> */}
+          
+        {/* </div> */}
+        </div>
     </>
   )
 }
