@@ -11,23 +11,9 @@
     justify-content: space-around;
 }
 
-.contactSubmitForm {
-    border:5px solid red;
-    /* min-height:5rem; */
-    max-height:25rem;
-    max-width:25vw;
-    /* height:30vh; */
-    display:flex;
-    flex-direction: column;
-    /* margin-top:1em */
-}
 
-.emailButton {
-    min-height:3.5rem;
-    min-width:3.2vw;
-    max-width:5vw;
 
-}
+
 
 .socialLinkContainer {
     border:5px solid black;

@@ -28,9 +28,9 @@ const Navbar = () => {
                 <li className='navbutton'>Resume</li>
             </Link>
 
-            <Link to='/contact'>
+            {/* <Link to='/contact'>
               <li className='navbutton'>Contact</li>
-            </Link>
+            </Link> */}
 
         </div>
     </div>
