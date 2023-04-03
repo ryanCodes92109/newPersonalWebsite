@@ -7,15 +7,15 @@ const Navbar = () => {
   return (
     <div className='header'>
       
-      <span className='titleText'>Ryan Sullivan</span>
+      <span className='titleText'>Ryan Sullivan - <span className='fullstackTitle'>Fullstack Engineer</span></span>
         <div className='navbar'>
           <Link to='/'>
             <li className='navbutton'>About Me</li>
           </Link>
 
-          <Link to='/projects'>
+          {/* <Link to='/projects'>
             <li className='navbutton'>Projects</li>
-          </Link>
+          </Link> */}
 
           <Link to='/resume'>
             <li className='navbutton'>Resume</li>
