@@ -10,34 +10,43 @@
     color:white;
   }
   
-  .navbar {
+  .navbarActive {
     display:flex;
-    margin-left:auto;
-  
-  }
-  
-  .navbutton {
-    width:10vw;
-    height:3vw;
-    justify-content: center;
-    display:flex;
-    align-items:center;
-    position:relative;
-    right:5vw;
-    /* margin: 2em;     */
-    font-size: 1.2rem;
-    color:white;
+    width:20vw;
+    height:30vh;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    position:absolute;
+    top:5rem;
+    transition: 10s;    
+    background-color:white;
+    right:0;
   }
 
-  .navbutton:hover {
-    color: black;
-    /* background-color:white; */
-    background-color: lightgrey;
+  .navbarHidden {
+    display:none;
+    width:100vw;
+    height:15vh;
+    transition: 5000ms;
+    
+  } 
+
+  .navbutton {
+    color:black;
+    list-style:none;
+    padding:15px;
   }
   
+  .menuIcon {
+    position:absolute;
+    color:white;
+    right:2rem;
+  }
+
   .titleText {
     font-size: 1.5rem;
-    position:relative;
+    position:absolute;
     left:10vw;
     font-family: 'Raleway', sans-serif;  
   }
@@ -45,10 +54,7 @@
     font-size: 1.3rem;
   }
 
-  #logo-70 {
-    position:relative;
-    left:9vw;
-  }
+
 
   #linkedinNavLogo {
    width:2.5vw;
