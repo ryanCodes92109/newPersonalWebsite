@@ -34,7 +34,6 @@ const handleChange = (e) => {
       <div className='aboutMeContainer'>
         <br/>
         
-        
             <p className='aboutMeText'> 
               Hi there! My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
             </p>
@@ -50,79 +49,83 @@ const handleChange = (e) => {
             <p className='aboutMeText'>
               Thank you for taking the time to learn a bit more about me. If you have any questions, please feel free to email directly with the form (created with EmailJS) below! 
             </p>
-  
+
       </div>
-      
-      <div>
-        <div className = 'contactContainer'>
+      <div className = 'contactContainer'>
                   
-          <form 
-            onSubmit={handleSubmit}
-            className='contactSubmitForm'>
+                  <form 
+                    onSubmit={handleSubmit}
+                    className='contactSubmitForm'>
+        
+                    <TextField
+                        required
+                        variant="filled"
+                        className='submitInput'
+                        backgroundColor="white"
+                        sx={{
+                            width:150
+                            
+                            }}
+                            
+                        label="Name"
+                        onChange={handleChange}
+                        name='from_name'
+                        value={toSend.from_name}
+                    ></TextField>
+        
+                      <TextField
+                        required
+                        variant="filled"
+                        sx={{
+                          width:170
+                        }}
+                        className='submitInput'
+                        label="Email"
+                        onChange={handleChange}
+                        name='reply_to'
+                        value={toSend.reply_to}
+                      ></TextField>
+                      <br/>
+        
+                      <TextField
+                        required
+                        variant="filled"
+                        className='submitInput'
+                        label='Write your message here'
+                        size='large'
+                        multiline
+                        minRows={1}
+                        sx={{
+                          width:250
+                        }}           
+                        onChange={handleChange}
+                        name='message'
+                        value={toSend.message}>
+                      </TextField>
+        
+                      <Button 
+                        variant="contained" 
+                        // endIcon={<SendIcon />}
+                        type='submit'
+                        className='emailButton'
+        
+                        >
+                        Send</Button>
+                  </form>
+        
+                  <a className='socialLinkContainer' href='https://www.linkedin.com/in/ryansul/'>
+                    <img
+                        className='linkedinProfileLink'
+                        src={'./linkedinlog.jpg'}/> 
+                  </a>
+                  <a className ='socialLinkContainer' href='https://github.com/ryanCodesFrontEnd'>
+                    <img 
+                      className='githubProfileLink'
+                      src={'./gh.jpg'}
+                    />
 
-            <TextField
-                required
-                variant="filled"
-                className='submitInput'
-                backgroundColor="white"
-                sx={{
-                    width:150
-                    
-                    }}
-                    
-                label="Name"
-                onChange={handleChange}
-                name='from_name'
-                value={toSend.from_name}
-            ></TextField>
-
-              <TextField
-                required
-                variant="filled"
-                sx={{
-                  width:170
-                }}
-                className='submitInput'
-                label="Email"
-                onChange={handleChange}
-                name='reply_to'
-                value={toSend.reply_to}
-              ></TextField>
-              <br/>
-
-              <TextField
-                required
-                variant="filled"
-                className='submitInput'
-                label='Write your message here'
-                size='large'
-                multiline
-                minRows={1}
-                sx={{
-                  width:250
-                }}           
-                onChange={handleChange}
-                name='message'
-                value={toSend.message}>
-              </TextField>
-
-              <Button 
-                variant="contained" 
-                // endIcon={<SendIcon />}
-                type='submit'
-                className='emailButton'
-
-                >
-                Send</Button>
-          </form>
-
-          <a className='socialLinkContainer' href='https://www.linkedin.com/in/ryansul/'>
-            <img
-                className='linkedinProfileLink'
-                src={'./linkedinlog.jpg'}/> 
-          </a>
-        </div>
-      </div>
+                  </a>
+                </div>
     </>
   )
 }
