@@ -6,7 +6,9 @@ const Resume = () => {
 
   return (
 
-    <div className='resumeContainer'>
+    <div 
+    
+    >
 
       <iframe 
       className='resumeContainer'
