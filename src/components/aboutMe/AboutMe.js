@@ -56,9 +56,9 @@ const handleChange = (e) => {
 
       <div className = 'contactContainer'>
 
-        <div className='emailMeLabel'>
+        {/* <div className='emailMeLabel'>
           <p>Email me directly!</p>
-        </div>
+        </div> */}
         
         <form 
           onSubmit={handleSubmit}
