@@ -21,10 +21,16 @@
 .aboutMeText {
     width:55vw;
     margin:auto;
+    padding: 5px;
 
 }
 
 .linkedinProfileLink:hover {
+    background-color: black;
+    border-radius: 1em;
+}
+
+.githubProfileLink:hover{
     background-color: black;
     border-radius: 1em;
 }
@@ -46,6 +52,13 @@
     justify-content: space-around;
     align-items: center;
     background-color: white;
+    border-radius: 1em;
+}
+
+.githubProfileLink {
+    width:4rem;
+    height:4rem;
+    margin:auto;
     border-radius: 1em;
 }
 

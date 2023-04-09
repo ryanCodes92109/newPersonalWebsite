@@ -17,17 +17,17 @@ const showSidebar = () => setSideBar(!sidebar)
         <div className= {sidebar ? 'navbarActive' :'navbarHidden'}>
 
        
-        <Link to='/'>
-          <li className='navbutton'>About Me</li>
+        <Link className='navbutton' to='/'>
+          <li >About Me</li>
         </Link>
 
-        <Link to='/resume'>
-          <li className='navbutton'>Resume</li>
+        <Link className='navbutton' to='/resume'>
+          <li >Resume</li>
         </Link>
 
          
-        <Link target='_blank' to='https://www.linkedin.com/in/ryansul/'>
-          <li className='navbutton'>LinkedIn</li>
+        <Link className='navbutton' rel="noreferrer" target='_blank' to='https://www.linkedin.com/in/ryansul/'>
+          <li >LinkedIn</li>
         </Link> 
           
         </div>
