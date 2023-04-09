@@ -1,9 +1,7 @@
 .resumeContainer {
-  /* display:flex; */
+  display:flex;
   width:60vw;
-  /* border:5px solid black; */
   height:85vh;
-  /* overflow-y:scroll; */
   margin:auto;
 }
 
