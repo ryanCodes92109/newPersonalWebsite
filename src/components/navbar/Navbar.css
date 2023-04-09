@@ -2,12 +2,13 @@
 .header {
     height:10vh;
     width:100vw;
-    background-color:rgba(0, 0, 0, 1);
+    background-color: rgba(255,255,255,.5);
+    box-shadow: 5px black;
     display:flex;
     z-index:100;
     align-items: center;
     position:fixed;
-    color:white;
+    color:black;
   }
   
   .navbarActive {

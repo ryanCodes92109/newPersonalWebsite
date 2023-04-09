@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
-import { FiAlignJustify } from "react-icons/fi";
+import  {FiAlignJustify}  from "react-icons/fi";
 
 
 const Navbar = () => {
@@ -33,7 +33,7 @@ const showSidebar = () => setSideBar(!sidebar)
         </div>
 
         <Link to='#' className='menuIcon'>
-         <FiAlignJustify onClick={showSidebar} size={25}/>
+         <FiAlignJustify onClick={showSidebar} size={35}/>
        </Link> 
     </div>
   )

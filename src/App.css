@@ -7,8 +7,7 @@
   height:100vh;
   /* background-color: black; */
 background: rgb(28,50,36);
-background: radial-gradient(circle, rgba(28,50,36,1) 0%, rgba(100,0,10,1) 58%, rgba(0,160,150,1) 83%, rgba(0,0,0,1) 95%);
-  position:fixed;
+background-image: linear-gradient(to right top, #f7f5f6, #e1dadf, #c8c0cb, #ada7b9, #9090a7, #7b859d, #657a93, #4d6f87, #3b6b7f, #2a6774, #1d6267, #185d58);  position:fixed;
   overflow-y:scroll;
 }
 
