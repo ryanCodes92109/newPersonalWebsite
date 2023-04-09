@@ -51,81 +51,89 @@ const handleChange = (e) => {
             </p>
 
       </div>
-      <div className = 'contactContainer'>
-                  
-                  <form 
-                    onSubmit={handleSubmit}
-                    className='contactSubmitForm'>
-        
-                    <TextField
-                        required
-                        variant="filled"
-                        className='submitInput'
-                        backgroundColor="white"
-                        sx={{
-                            width:150
-                            
-                            }}
-                            
-                        label="Name"
-                        onChange={handleChange}
-                        name='from_name'
-                        value={toSend.from_name}
-                    ></TextField>
-        
-                      <TextField
-                        required
-                        variant="filled"
-                        sx={{
-                          width:170
-                        }}
-                        className='submitInput'
-                        label="Email"
-                        onChange={handleChange}
-                        name='reply_to'
-                        value={toSend.reply_to}
-                      ></TextField>
-                      <br/>
-        
-                      <TextField
-                        required
-                        variant="filled"
-                        className='submitInput'
-                        label='Write your message here'
-                        size='large'
-                        multiline
-                        minRows={1}
-                        sx={{
-                          width:250
-                        }}           
-                        onChange={handleChange}
-                        name='message'
-                        value={toSend.message}>
-                      </TextField>
-        
-                      <Button 
-                        variant="contained" 
-                        // endIcon={<SendIcon />}
-                        type='submit'
-                        className='emailButton'
-        
-                        >
-                        Send</Button>
-                  </form>
-        
-                  <a className='socialLinkContainer' href='https://www.linkedin.com/in/ryansul/'>
-                    <img
-                        className='linkedinProfileLink'
-                        src={'./linkedinlog.jpg'}/> 
-                  </a>
-                  <a className ='socialLinkContainer' href='https://github.com/ryanCodesFrontEnd'>
-                    <img 
-                      className='githubProfileLink'
-                      src={'./gh.jpg'}
-                    />
 
-                  </a>
-                </div>
+
+
+      <div className = 'contactContainer'>
+
+        <div className='emailMeLabel'>
+          <p>Email me directly!</p>
+        </div>
+        
+        <form 
+          onSubmit={handleSubmit}
+          className='contactSubmitForm'>
+
+          <TextField
+              required
+              variant="filled"
+              className='submitInput'
+              backgroundColor="white"
+              sx={{
+                  width:150
+                            
+                  }}
+                            
+              label="Name"
+              onChange={handleChange}
+              name='from_name'
+              value={toSend.from_name}
+          ></TextField>
+        
+            <TextField
+              required
+              variant="filled"
+              sx={{
+                width:170
+              }}
+              className='submitInput'
+              label="Email"
+              onChange={handleChange}
+                        name='reply_to'
+              value={toSend.reply_to}
+            ></TextField>
+            <br/>
+        
+            <TextField
+              required
+              variant="filled"
+              className='submitInput'
+              label='Write your message here'
+              size='large'
+              multiline
+              minRows={1}
+              sx={{
+                width:250
+              }}           
+              onChange={handleChange}
+              name='message'
+              value={toSend.message}>
+            </TextField>
+        
+            <Button 
+              variant="contained" 
+              // endIcon={<SendIcon />}
+              type='submit'
+              className='emailButton'
+        
+              >
+              Send</Button>
+        </form>
+          <a 
+          className='socialLinkContainer'
+          href='https://www.linkedin.com/inryansul'>
+            <img
+                className='linkedinProfileLink'
+                src={'./linkedinlog.jpg'}/> 
+          </a>
+          <a className='socialLinkContainer'href='https://github.comryanCodesFrontEnd'>
+            <img 
+              className='githubProfileLink'
+              src={'./gh.jpg'}
+            />
+
+          </a>
+        </div>
     </>
   )
 }
