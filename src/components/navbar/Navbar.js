@@ -8,7 +8,7 @@ const Navbar = () => {
 
   const [sidebar, setSideBar] = useState(false)
 
-const showSidebar = () => setSideBar(!sidebar)
+  const showSidebar = () => setSideBar(!sidebar)
   
   return (
     <div className='header'>
@@ -17,16 +17,28 @@ const showSidebar = () => setSideBar(!sidebar)
         <div className= {sidebar ? 'navbarActive' :'navbarHidden'}>
 
        
-        <Link className='navbutton' to='/'>
+        <Link 
+          className='navbutton' 
+          to='/'
+          onClick={showSidebar}  
+        >
           <li >About Me</li>
         </Link>
 
-        <Link className='navbutton' to='/resume'>
+        <Link 
+          onClick={showSidebar}  
+          className='navbutton' 
+          to='/resume'>
           <li >Resume</li>
         </Link>
 
          
-        <Link className='navbutton' rel="noreferrer" target='_blank' to='https://www.linkedin.com/in/ryansul/'>
+        <Link 
+          onClick={showSidebar}  
+          className='navbutton' 
+          rel="noreferrer" 
+          target='_blank' 
+          to='https://www.linkedin.com/in/ryansul/'>
           <li >LinkedIn</li>
         </Link> 
           
