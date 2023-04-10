@@ -121,7 +121,7 @@ const handleChange = (e) => {
         </form>
           <a 
           className='socialLinkContainer'
-          href='https://www.linkedin.com/inryansul'>
+          href='https://www.linkedin.com/in/ryansul/'>
             <img
                 className='linkedinProfileLink'
                 src={'./linkedinlog.jpg'}/> 
