@@ -120,13 +120,19 @@ const handleChange = (e) => {
               Send</Button>
         </form>
           <a 
+          target='_blank'
+          rel="noopener noreferrer"
           className='socialLinkContainer'
           href='https://www.linkedin.com/in/ryansul/'>
             <img
                 className='linkedinProfileLink'
                 src={'./linkedinlog.jpg'}/> 
           </a>
-          <a className='socialLinkContainer'href='https://github.comryanCodesFrontEnd'>
+          <a 
+            target='_blank'
+            rel="noopener noreferrer"
+            className='socialLinkContainer'
+            href='https://github.com/ryanCodesFrontEnd'>
             <img 
               className='githubProfileLink'
               src={'./gh.jpg'}
