@@ -2,7 +2,6 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Resume from './components/resume/Resume';
 import Navbar from './components/navbar/Navbar';
-import Contact from './components/contact/Contact';
 import AboutMe from './components/aboutMe/AboutMe';
 import Projects from './components/projects/Projects';
 
@@ -28,10 +27,10 @@ function App() {
           /> */}
           
             
-          <Route
+          {/* <Route
             path='/contact'
             element={ <Contact /> }
-          />
+          /> */}
 
           </Routes>
       </div>
