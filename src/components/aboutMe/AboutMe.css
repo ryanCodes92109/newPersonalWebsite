@@ -2,10 +2,11 @@
     background-color: rgba(255,255,255,.7);
     display:flex;
     flex-direction: column;
-    height:60vh;
-    width:65vw;
+    height:30rem;
+    width:60rem;
     margin:auto;
-    overflow:scroll;
+    /* overflow:scroll; */
+    z-index: index 5;
 }
 
 .infoTextContainer{
@@ -19,9 +20,15 @@
 }
 
 .aboutMeText {
-    width:55vw;
+    /* width:60rem; */
+    height:100rem;
     margin:auto;
-    padding: 5px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top:3rem;
+    /* padding: 5px; */
+    /* overflow:scroll; */
+    z-index: index 1;
 
 }
 
@@ -65,7 +72,7 @@
 .contactContainer {
     background-color:rgba(255,255,255,.5);
     height:30vh;
-    width:65vw;
+    width:60rem;
     left:10vw;
     margin:auto;
     overflow:none;

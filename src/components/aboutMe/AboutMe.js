@@ -34,31 +34,30 @@ const handleChange = (e) => {
       <div className='aboutMeContainer'>
         <br/>
         
-            <p className='aboutMeText'> 
-              Hi there! My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
-            </p>
-            <p className='aboutMeText'>
+            <article className='aboutMeText'> 
+              Hi there! <br/> <br/>My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
+            <br/>
+            <br/>
               My experience in recruiting allowed me to gain a deep understanding of the tech industry and the skills that are most in-demand in today's job market. However, I realized that I wanted to be more directly involved in the creation of new products, rather than just finding the right people to build them.
-            </p>
-            <p className='aboutMeText'>
+             <br/>
+             <br/>
               That's why I decided to make the switch to software engineering and enrolled in the Fullstack Engineering program at Flatiron School. During the course of the program, I gained hands-on experience with a wide range of technologies, including JavaScript, React, Ruby on Rails, and SQL. I also honed my problem-solving and critical thinking skills, which are essential for any software engineer.
-            </p> 
-            <p className='aboutMeText'>
+              <br/>
+              <br/>
+
+           
               Now that I've completed the program, I'm excited to apply my skills and experience to help create innovative new products and services. Whether you're looking to build a web app, a mobile app, or something else entirely, I'm eager to collaborate with you and turn your ideas into reality.
-            </p>
-            <p className='aboutMeText'>
+              <br/>
+              <br/>
+
               Thank you for taking the time to learn a bit more about me. If you have any questions, please feel free to email directly with the form (created with EmailJS) below! 
-            </p>
+            </article>
 
       </div>
 
 
 
       <div className = 'contactContainer'>
-
-        {/* <div className='emailMeLabel'>
-          <p>Email me directly!</p>
-        </div> */}
         
         <form 
           onSubmit={handleSubmit}
