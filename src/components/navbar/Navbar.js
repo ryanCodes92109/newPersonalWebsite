@@ -32,6 +32,15 @@ const Navbar = () => {
           <li >Resume</li>
         </Link>
 
+        <Link
+          onClick={showSidebar}
+          className='navbutton'
+          to='/projects'
+        >
+          <li>Projects</li>
+
+        </Link>
+
          
         <Link 
           onClick={showSidebar}  
