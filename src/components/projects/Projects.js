@@ -5,8 +5,6 @@ import ProjectCard from './ProjectCard'
 
 const Projects = () => {
 
-console.log(projects)
-
 const mappedProjects = projects.map((project, index) => (<ProjectCard key={index} {...project} />))
   return (
     <div className='projectsContainer'>
