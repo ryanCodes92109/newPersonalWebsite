@@ -1,13 +1,18 @@
 import React from 'react'
 import './Projects.css'
+import projects from './ProjectDescription'
+import ProjectCard from './ProjectCard'
 
 const Projects = () => {
+
+console.log(projects)
+
+const mappedProjects = projects.map((project, index) => (<ProjectCard key={index} {...project} />))
   return (
     <div className='projectsContainer'>
-
-       
-        <div className="projectsInfo">
-          This part is still in progress! 
+       <span className='projectContainerTitle'>Previous Projects:</span>
+        <div className="projectCardParent">
+          {mappedProjects}
         </div>
 
     </div>
