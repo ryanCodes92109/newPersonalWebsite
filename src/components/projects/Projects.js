@@ -7,13 +7,16 @@ const Projects = () => {
 
 const mappedProjects = projects.map((project, index) => (<ProjectCard key={index} {...project} />))
   return (
-    <div className='projectsContainer'>
-       <span className='projectContainerTitle'>Previous Projects:</span>
-        <div className="projectCardParent">
-          {mappedProjects}
-        </div>
+    <>
+      <div id='projectsNavId' className = 'projectHeader'><span className='projectHeaderText'>Projects</span></div>
+      <div className='projectsContainer'>
+        {/* <span className='projectContainerTitle'>Previous Projects:</span> */}
+          <div className="projectCardParent">
+            {mappedProjects}
+          </div>
 
-    </div>
+      </div>
+    </>
   )
 }
 

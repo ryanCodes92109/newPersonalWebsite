@@ -4,14 +4,21 @@ import Resume from './components/resume/Resume';
 import Navbar from './components/navbar/Navbar';
 import AboutMe from './components/aboutMe/AboutMe';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+  
       <div className = "appContainer">
-        <Routes>
+
+      <AboutMe/>
+      <Projects/>
+      <Resume />
+      <Contact />
+        {/* <Routes>
           <Route 
             path='/'
             element={ <AboutMe/> }
@@ -32,7 +39,7 @@ function App() {
             element={ <Contact /> }
           /> */}
 
-          </Routes>
+          {/* </Routes> */} 
       </div>
     </div>
 
