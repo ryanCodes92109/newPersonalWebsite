@@ -6,7 +6,7 @@ import  {FiAlignJustify}  from "react-icons/fi";
 
 const Navbar = () => {
 
-  const [sidebar, setSideBar] = useState(false)
+  const [sidebar, setSideBar] = useState(true)
 
   const showSidebar = () => setSideBar(!sidebar)
   
@@ -16,46 +16,25 @@ const Navbar = () => {
       <span className='titleText'>Ryan Sullivan - <span className='fullstackTitle'>Fullstack Engineer</span></span>
         <div className= {sidebar ? 'navbarActive' :'navbarHidden'}>
 
-       
-        <Link 
-          className='navbutton' 
-          to='/'
-          onClick={showSidebar}  
-        >
-          <li >About Me</li>
-        </Link>
+          <a href='#aboutMeNavId'> 
+            <li className='navbutton' >About Me</li>
+          </a>
 
-        <Link 
-          onClick={showSidebar}  
-          className='navbutton' 
-          to='/resume'>
-          <li >Resume</li>
-        </Link>
-
-        <Link
-          onClick={showSidebar}
-          className='navbutton'
-          to='/projects'
-        >
-          <li>Projects</li>
-
-        </Link>
-
-         
-        <Link 
-          onClick={showSidebar}  
-          className='navbutton' 
-          rel="noreferrer" 
-          target='_blank' 
-          to='https://www.linkedin.com/in/ryansul/'>
-          <li >LinkedIn</li>
-        </Link> 
+          <a href='#resumeNavId'>
+            <li className='navbutton' >Resume</li>
+          </a>
+          <a href='#projectsNavId'>
+            <li className='navbutton' >Projects</li>
+          </a>   
+          <a href='#contactNavId'>
+            <li className='navbutton' >Contact</li>
+          </a> 
           
         </div>
-
+{/* 
         <Link to='#' className='menuIcon'>
          <FiAlignJustify onClick={showSidebar} size={35}/>
-       </Link> 
+       </Link>  */}
     </div>
   )
 }

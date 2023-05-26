@@ -5,8 +5,22 @@
   margin:auto;
   text-align:center;
   object-position: 50% 50%;
+}
 
+.resumeHeader {
+  height:5rem;
+  width:100vw;
+  background-color: slategray;
+  display:flex;
+  /* justify-content:center; */
+  align-items:center;
 
+}
+
+.resumeHeaderText {
+  position:relative;
+  left:3rem;
+  font-size: 1.5rem;
 }
 
 iframe {

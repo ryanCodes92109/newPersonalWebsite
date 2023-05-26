@@ -1,0 +1,15 @@
+.contactHeader  {
+    height:5rem;
+    width:100vw;
+    background-color: slategray;
+    position:sticky;
+    top:15rem;
+    display:flex;
+    align-items:center;
+}
+
+.contactMeHeaderText {
+    position:relative;
+    left:3rem;
+    font-size: 1.5rem;
+}
