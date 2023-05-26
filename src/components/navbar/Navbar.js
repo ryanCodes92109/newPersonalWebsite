@@ -20,12 +20,14 @@ const Navbar = () => {
             <li className='navbutton' >About Me</li>
           </a>
 
+          <a href='#projectsNavId'>
+            <li className='navbutton' >Projects</li>
+          </a>  
+
           <a href='#resumeNavId'>
             <li className='navbutton' >Resume</li>
           </a>
-          <a href='#projectsNavId'>
-            <li className='navbutton' >Projects</li>
-          </a>   
+         
           <a href='#contactNavId'>
             <li className='navbutton' >Contact</li>
           </a> 
