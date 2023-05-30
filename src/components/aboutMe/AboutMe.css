@@ -3,12 +3,31 @@
     background-color:white;
     display:flex;
     flex-direction: column;
-    height:100vh;
+    height:80vh;
     width:100%;
     margin:auto;
     /* overflow:scroll; */
     z-index: index 5;
-    
+    justify-content:center;
+}
+
+@media (max-width:633px) {
+
+    .aboutMeContainer {
+        background-color:white;
+    }
+
+    .landingPagePhotoContainer {
+        visibility:hidden;
+    }
+
+    .briefIntro {
+   
+    }
+  
+    #aboutMeWelcome {
+
+    }
 }
 
 #aboutMeWelcome {
@@ -45,11 +64,22 @@
     z-index:5;
 }
 
-.landingPagePhoto {
-    width:55rem;
-    height:45rem;
+.landingPagePhotoContainer {
+    background-color: slategray;
+    height:70vh;
+    width:50vw;
     position:relative;
-    left:2rem;
+    left:4rem;
+    display:flex;
+    align-items: center;
+}
+
+.landingPagePhoto {
+    width:46vw;
+    height:50vh;
+    position:relative;
+    left:.5rem;
+    margin:auto;
 }
 
 .aboutMeText {

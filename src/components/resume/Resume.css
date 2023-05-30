@@ -3,6 +3,8 @@
   width:50rem;
   height:85vh;
   margin:auto;
+  margin-top:2rem;
+  margin-bottom:2rem;
   text-align:center;
   object-position: 50% 50%;
 }
@@ -25,6 +27,21 @@
 
 iframe {
   margin:auto;
+}
+
+@media (max-width:633px) {
+  iframe {
+    margin:auto;
+  }
+
+  .resumeContainer {
+    visibility:hidden;
+  }
+
+  .resumeHeader {
+    visibility:hidden;
+  }
+
 }
 
 

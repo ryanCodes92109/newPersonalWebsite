@@ -11,6 +11,13 @@
     position:fixed;
     color:black;
   }
+
+  @media (max-width:633px) {
+    .header {
+      height:10vh;
+      width:100vw;
+    }
+  }
   
   .navbarActive {
     display:flex;
