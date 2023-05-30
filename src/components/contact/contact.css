@@ -13,3 +13,14 @@
     left:3rem;
     font-size: 1.5rem;
 }
+
+@media (max-width:633px) {
+    .contactContainer {
+        display:flex;
+        justify-content: space-between;
+        flex-direction:column;
+        height:25rem;
+        width:99vw;
+        border:5px solid black;
+    }
+}
