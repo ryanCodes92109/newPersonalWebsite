@@ -14,7 +14,9 @@ const AboutMe = () => {
           <span id='aboutMeWelcome' > Welcome!</span> <br/>
             <span className ='briefIntro'> I'm Ryan, a curious and passionate Fullstack Engineer. Nice to meet you! </span> <br/>
           </div>
-          <img className='landingPagePhoto' src='./landingpage.jpg' /> 
+          <div className='landingPagePhotoContainer'>
+            <img className='landingPagePhoto' src='./landingpage.jpg' /> 
+          </div>
         
             {/* <article className='aboutMeText'> 
               Hi there! <br/> <br/>My name is Ryan, and I'm a software engineer who recently completed the Fullstack Engineering program at Flatiron School. Prior to this, I worked as a technical recruiter at Google, Zillow, and Rivian.
