@@ -35,11 +35,12 @@ iframe {
   }
 
   .resumeContainer {
-    visibility:hidden;
+    /* visibility:hidden; */
+    width:100vw;
   }
 
   .resumeHeader {
-    visibility:hidden;
+    /* visibility:hidden; */
   }
 
 }

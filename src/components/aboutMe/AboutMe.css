@@ -22,7 +22,8 @@
     }
 
     .briefIntro {
-   
+        width:80vw;
+        /* margin:auto; */
     }
   
     #aboutMeWelcome {

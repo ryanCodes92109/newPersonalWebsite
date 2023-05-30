@@ -54,6 +54,8 @@
     padding:4rem;
     box-shadow: 3px 3px black;
     text-align: left;
+    margin-left:1rem;
+    margin-right:1rem;
     /* overflow: scroll; */
 }
 .projectImage {
@@ -72,17 +74,48 @@
     font-size:1.2rem;
 }
 
-@media ( max-midth:633px) {
+@media ( max-width:633px) {
     .projectsContainer {
-        height:80vh;
-        width:80vw;
+        /* overflow:none; */
+        display:flex;
+        height:150rem;
+        /* visibility:hidden; */
     }
 
     .projectCardParent {
-        visibility: hidden;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        /* align-items: center; */
+        width:90vw;
+        overflow-x:hidden;
+
     }
 
     .projectCard {
-        width:33%
+        width:65%;
+        margin-right:5rem;
+        
+        margin:auto;
+        overflow:none;
+    }
+
+
+    .projectImage {
+    /* visibility:none; */
+    width:60vw;
+    height:30vh;
+   
+    }
+
+    span.projectHeaderText {
+        /* visibility:none; */
+    }
+
+    .projectHeader {
+        /* visibility:none; */
+        position:relative;
+        top:0;
+        
     }
 }

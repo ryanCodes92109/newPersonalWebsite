@@ -25,3 +25,10 @@ overflow-y:scroll;
 
 }
 
+@media ( max-width:633px) {
+  .App {
+    width:99vw;
+    /* border:5px solid black; */
+    overflow-x:hidden;
+  }
+}
