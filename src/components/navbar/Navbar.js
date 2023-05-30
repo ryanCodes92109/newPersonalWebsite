@@ -6,7 +6,7 @@ import  {FiAlignJustify}  from "react-icons/fi";
 
 const Navbar = () => {
 
-  const [sidebar, setSideBar] = useState(true)
+  const [sidebar, setSideBar] = useState(false)
 
   const showSidebar = () => setSideBar(!sidebar)
   
