@@ -17,10 +17,9 @@
 @media (max-width:633px) {
     .contactContainer {
         display:flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         flex-direction:column;
-        height:25rem;
+        height:45rem;
         width:99vw;
-        border:5px solid black;
     }
 }
