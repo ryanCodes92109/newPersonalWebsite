@@ -60,7 +60,7 @@
     font-size: 1.3rem;
     display:flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
     z-index:5;
 }
 
