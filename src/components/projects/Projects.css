@@ -2,7 +2,6 @@
     height:5rem;
     width:100vw;
     background-color: slategray;
-    position:sticky;
     top:15rem;
     display:flex;
     align-items:center;
@@ -50,7 +49,7 @@
     flex-direction:column;
     margin:1rem;
     width:30rem;
-    height: 40rem;
+    height: 45rem;
     /* padding:1rem; */
     box-shadow: 3px 3px black;
     text-align: left;
