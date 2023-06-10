@@ -1,4 +1,11 @@
 const projects = [
+
+    {
+        "name": "Rick and Morty Character Index",
+        "description": "This is a fun app to allow me to practice my react skills while playing around with a topic i have a lot of fun with, Rick and Morty. I was even able to get around the pagination and use the api to display all 800+ characters instead of 20 at a time.",
+        "technologiesUsed": "React, CSS, Rick and Morty API",
+        "image": <img className='projectImage' src={'./rickMorty.png'}/>
+    },
    
     {
         "name":"Stock Tracker",
