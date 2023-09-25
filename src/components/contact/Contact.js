@@ -108,7 +108,7 @@ const handleChange = (e) => {
             target='_blank'
             rel="noopener noreferrer"
             className='socialLinkContainer'
-            href='https://github.com/ryanCodesFrontEnd'>
+            href='https://github.com/ryanCodes92109'>
             <img 
               className='githubProfileLink'
               src={'./gh.jpg'}
