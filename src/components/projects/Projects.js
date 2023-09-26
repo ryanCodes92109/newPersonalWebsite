@@ -16,9 +16,9 @@ const mappedProjects = projects.map((project, index) => (<ProjectCard key={index
           <div className="projectCardParent">
             {mappedProjects}
           </div>
-          <Contact/>
-
+          
       </div>
+      <Contact/>
     </>
   )
 }

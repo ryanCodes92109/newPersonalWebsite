@@ -25,7 +25,7 @@
      width:100vw;
     height:120vh; 
     /* background-color: rgba(4, 65, 47, 0.5); */
-    /* overflow:auto; */
+    overflow:scroll;
     /* position:fixed; */
     /* margin:auto; */
 }
