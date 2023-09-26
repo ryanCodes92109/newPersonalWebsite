@@ -31,11 +31,12 @@ const handleChange = (e) => {
 }
   return (
     <>  
+
     <div id='contactNavId' className='contactHeader'>
       <span className='contactMeHeaderText'>Contact Me!</span>
     </div>
     <div className = 'contactContainer'>
-        
+    
         <form 
           onSubmit={handleSubmit}
           className='contactSubmitForm'>
@@ -44,7 +45,7 @@ const handleChange = (e) => {
               required
               variant="filled"
               className='submitInput'
-              backgroundColor="white"
+              // backgroundColor="white"
               sx={{
                   width:150
                             
@@ -95,11 +96,13 @@ const handleChange = (e) => {
               >
               Send</Button>
         </form>
+        
           <a 
           target='_blank'
           rel="noopener noreferrer"
           className='socialLinkContainer'
           href='https://www.linkedin.com/in/ryansul/'>
+            
             <img
                 className='linkedinProfileLink'
                 src={'./linkedinlog.jpg'}/> 
@@ -112,7 +115,7 @@ const handleChange = (e) => {
             <img 
               className='githubProfileLink'
               src={'./gh.jpg'}
-            />
+            ></img>
 
           </a>
         </div>

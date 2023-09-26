@@ -11,14 +11,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-  
-      <div className = "appContainer">
-
-      <AboutMe/>
-      <Projects/>
-      <Resume />
-      <Contact />
-        {/* <Routes>
+    <div className = "appContainer">
+      
+         <Routes>
           <Route 
             path='/'
             element={ <AboutMe/> }
@@ -32,14 +27,9 @@ function App() {
             path ='/projects' 
             element={ <Projects />} 
           />
-          
-            
-          {/* <Route
-            path='/contact'
-            element={ <Contact /> }
-          /> */}
-
-          {/* </Routes> */} 
+        
+  
+          </Routes> 
       </div>
     </div>
 

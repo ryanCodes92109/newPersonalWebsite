@@ -1,18 +1,32 @@
 .contactHeader  {
-    height:5rem;
-    width:100vw;
+    height:3rem;
+    width:100%; 
     background-color: slategray;
     position:sticky;
-    top:15rem;
     display:flex;
     align-items:center;
+    justify-content: center;
 }
 
 .contactMeHeaderText {
-    position:relative;
-    left:3rem;
+    position:absolute;
+    
     font-size: 1.5rem;
 }
+
+
+.contactContainer {
+    /* border:5px solid black; */
+    width:100vw;
+    height:8rem;
+    display:flex;
+    /* position:absolute; */
+    background-color: slategray;
+    justify-content: space-around;
+    
+}
+
+
 
 @media (max-width:633px) {
     .contactContainer {
@@ -20,6 +34,7 @@
         justify-content: space-evenly;
         flex-direction:column;
         height:45rem;
-        width:99vw;
+        width:50vw;
+        background-color: slategray;
     }
 }

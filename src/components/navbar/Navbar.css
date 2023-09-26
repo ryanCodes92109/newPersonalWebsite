@@ -4,26 +4,33 @@
     width:100vw;
     /* background-color: rgba(255,255,255,.9); */
     background-color:slategray;
-    box-shadow: 5px black;
+    /* box-shadow: 5px black; */
     display:flex;
     z-index:100;
     align-items: center;
-    position:fixed;
+    justify-content: space-around;
+    position:sticky;
     color:black;
+    top:0;
+    z-index:1;
+    overflow:none;
   }
 
   
   
   .navbarActive {
     display:flex;
-    width:27rem;
-    height:8vh;
+    width:10rem;
+    height:18rem;
     align-items: center;
-    justify-content:center;
+    justify-content:space-around;
+    flex-direction:column;
     position:absolute;
     transition: 500ms;    
-    right:4rem;
-    
+    right:1rem;
+    top:5.5rem;
+    background-color:slategray;
+
   }
 
   .navbarHidden { 
@@ -32,10 +39,12 @@
     height:8vh;
     align-items: center;
     justify-content:center;
+    flex-direction:column;
     position:absolute;
     transition: 500ms;    
     right:-25rem;
-    
+    top:14rem;
+    display:none;
   } 
 
   .navbutton  {
@@ -63,13 +72,19 @@
   }
 
   .titleText {
-    font-size: 1.3rem;
+    font-size: 2rem;
     position:absolute;
     left:2rem;
     font-family: 'Raleway', sans-serif;  
   }
   .fullstackTitle{
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .pathNameOnPage {
+    position:absolute;
+    left:50%;
+    font-size: 1.5rem;
   }
 
 
