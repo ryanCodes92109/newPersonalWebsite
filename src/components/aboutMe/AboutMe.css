@@ -1,14 +1,14 @@
 .aboutMeContainer {
     /* background-color: rgba(255,255,255,.4); */
-    background-color:white;
-    display:flex;
-    flex-direction: column;
-    height:80vh;
-    width:100%;
-    margin:auto;
-    /* overflow:scroll; */
-    z-index: index 5;
-    justify-content:center;
+    /* background-color:white; */
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* height:80vh; */
+    /* width:100%; */
+    /* margin:auto; */
+    
+    /* z-index: index 5; */
+    /* justify-content:center; */
 }
 
 @media (max-width:633px) {
@@ -133,7 +133,7 @@
     border-radius: 1em;
 }
 
-.contactContainer {
+/* .contactContainer {
     background-color:rgba(255,255,255,.5);
     height:30vh;
     width:60rem;
@@ -145,7 +145,7 @@
     flex-direction:row; 
     justify-content:space-around;
     margin:auto;
-}
+} */
 
 .emailButton {
     min-height:3.5rem;

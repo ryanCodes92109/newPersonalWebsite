@@ -30,13 +30,13 @@ const handleChange = (e) => {
     setToSend({...toSend, [e.target.name]:e.target.value});
 }
   return (
-    <>  
-
+    <>
+    {/* <div className = "contactHeaderAndFormContainer">   */}
+    
     <div id='contactNavId' className='contactHeader'>
       <span className='contactMeHeaderText'>Contact Me!</span>
     </div>
     <div className = 'contactContainer'>
-    
         <form 
           onSubmit={handleSubmit}
           className='contactSubmitForm'>
@@ -119,6 +119,7 @@ const handleChange = (e) => {
 
           </a>
         </div>
+      {/* </div> */}
       </>
   )
 }

@@ -5,28 +5,27 @@
     position:sticky;
     display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: flex-start;
+    left:1rem;
 }
 
 .contactMeHeaderText {
     position:absolute;
-    
     font-size: 1.5rem;
+    left:2rem;
 }
 
 
 .contactContainer {
-    /* border:5px solid black; */
     width:100vw;
-    height:8rem;
+    height:12rem;
     display:flex;
-    /* position:absolute; */
+    position:absolute;
     background-color: slategray;
     justify-content: space-around;
+    align-items: center;
     
 }
-
-
 
 @media (max-width:633px) {
     .contactContainer {
