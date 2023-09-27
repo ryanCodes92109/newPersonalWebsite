@@ -34,7 +34,7 @@ const handleChange = (e) => {
     {/* <div className = "contactHeaderAndFormContainer">   */}
     
     <div id='contactNavId' className='contactHeader'>
-      <span className='contactMeHeaderText'>Contact Me!</span>
+      <span className='contactMeHeaderText'>Contact me below:</span>
     </div>
     <div className = 'contactContainer'>
         <form 
